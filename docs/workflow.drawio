@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T20:48:33.078Z" agent="5.0 (X11)" etag="QdsMAt2mxP6wV-gc85un" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-23T20:49:33.178Z" agent="5.0 (X11)" etag="FTleHIgZRwZy3xEcaGRG" version="18.0.6" type="github">
   <diagram id="f_M_BV4vzWHAYqFdbZKb" name="Page-1">
     <mxGraphModel dx="2110" dy="1327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -205,14 +205,26 @@
         <mxCell id="i98yv0iWhbBMQ4a5bC5F-99" value="results/read_quality/example_filtered_trimed/.." style="text;strokeColor=#050505;fillColor=#E38010;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="i98yv0iWhbBMQ4a5bC5F-98">
           <mxGeometry y="60" width="300" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="i98yv0iWhbBMQ4a5bC5F-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=21;fontColor=#FFFFFF;strokeWidth=2;" edge="1" parent="1" source="i98yv0iWhbBMQ4a5bC5F-102" target="i98yv0iWhbBMQ4a5bC5F-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="i98yv0iWhbBMQ4a5bC5F-102" value="Data For Bowtie DB" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=35;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#050505;fillColor=#596E51;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="510" y="699" width="160" height="95" as="geometry" />
+          <mxGeometry x="467" y="679" width="160" height="95" as="geometry" />
         </mxCell>
         <mxCell id="i98yv0iWhbBMQ4a5bC5F-103" value="&lt;path&gt;/fasta_db.fa" style="text;strokeColor=#050505;fillColor=#6d8764;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="i98yv0iWhbBMQ4a5bC5F-102">
           <mxGeometry y="35" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i98yv0iWhbBMQ4a5bC5F-104" value="&lt;path&gt;/genbank_db.gff" style="text;strokeColor=#050505;fillColor=#6d8764;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#ffffff;strokeWidth=2;" vertex="1" parent="i98yv0iWhbBMQ4a5bC5F-102">
           <mxGeometry y="65" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i98yv0iWhbBMQ4a5bC5F-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=21;fontColor=#FFFFFF;strokeWidth=2;" edge="1" parent="1" source="i98yv0iWhbBMQ4a5bC5F-104" target="i98yv0iWhbBMQ4a5bC5F-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i98yv0iWhbBMQ4a5bC5F-110" value=".gff" style="text;whiteSpace=wrap;html=1;fontSize=21;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="710" y="830" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i98yv0iWhbBMQ4a5bC5F-111" value="&lt;h1&gt;Check for Duplicate&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Before the program is allowed to run for too long, the fasta files are checked for duplicates. &lt;br&gt;&lt;/div&gt;This could be moved to a logs&#39; directory." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="568" y="854" width="284" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

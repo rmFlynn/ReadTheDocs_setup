@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T13:11:49.554Z" agent="5.0 (X11)" etag="VfPSfqsov9Htqidzec6Q" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-24T17:46:22.167Z" agent="5.0 (X11)" etag="AYfOHsJBZ9NX3n_bHm1b" version="18.0.6" type="github">
   <diagram id="f_M_BV4vzWHAYqFdbZKb" name="Page-1">
-    <mxGraphModel dx="3370" dy="2653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2943" dy="1269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,7 +81,7 @@
         <mxCell id="i98yv0iWhbBMQ4a5bC5F-22" value="bbduk_trim_reads" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#8ce5d5;fontColor=#000000;strokeColor=#050505;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="90" y="360" width="171" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="i98yv0iWhbBMQ4a5bC5F-23" value="Temp Out" style="text;strokeColor=#050505;fillColor=#647687;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#ffffff;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+        <mxCell id="i98yv0iWhbBMQ4a5bC5F-23" value="Temp Output" style="text;strokeColor=#050505;fillColor=#647687;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#ffffff;strokeWidth=2;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="120" width="112" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i98yv0iWhbBMQ4a5bC5F-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=21;" edge="1" parent="1" source="i98yv0iWhbBMQ4a5bC5F-28" target="i98yv0iWhbBMQ4a5bC5F-20">
@@ -118,9 +118,6 @@
         </mxCell>
         <mxCell id="i98yv0iWhbBMQ4a5bC5F-51" value="&lt;h1&gt;Check for Duplicate&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Before the program is allowed to run for too long, the fasta files are checked for duplicates. &lt;br&gt;&lt;/div&gt;This could be moved to a logs&#39; directory." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="332" width="284" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="i98yv0iWhbBMQ4a5bC5F-53" value="Retained output" style="text;strokeColor=#050505;fillColor=#f0a30a;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#000000;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="78" width="112" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i98yv0iWhbBMQ4a5bC5F-54" value="Key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=21;" vertex="1" parent="1">
           <mxGeometry x="62" y="28" width="60" height="30" as="geometry" />
@@ -209,13 +206,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i98yv0iWhbBMQ4a5bC5F-98" value="Quality stats" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#1F1F1F;fillColor=#BF6021;fontColor=#F5F5F5;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="1069.5" width="250" height="90" as="geometry" />
+          <mxGeometry x="-160" y="1080" width="280" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="i98yv0iWhbBMQ4a5bC5F-100" value="read_quality/example_raw/.." style="text;strokeColor=#050505;fillColor=#E38010;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="i98yv0iWhbBMQ4a5bC5F-98">
-          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        <mxCell id="i98yv0iWhbBMQ4a5bC5F-100" value="read_quality/example_raw/*zip" style="text;strokeColor=#050505;fillColor=#E38010;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="i98yv0iWhbBMQ4a5bC5F-98">
+          <mxGeometry y="30" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i98yv0iWhbBMQ4a5bC5F-99" value="read_quality/example_filtered_trimed/.." style="text;strokeColor=#050505;fillColor=#E38010;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="i98yv0iWhbBMQ4a5bC5F-98">
-          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        <mxCell id="i98yv0iWhbBMQ4a5bC5F-99" value="read_quality/example_filtered_trimed/*zip" style="text;strokeColor=#050505;fillColor=#E38010;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="i98yv0iWhbBMQ4a5bC5F-98">
+          <mxGeometry y="60" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i98yv0iWhbBMQ4a5bC5F-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=21;fontColor=#FFFFFF;strokeWidth=2;" edge="1" parent="1" source="i98yv0iWhbBMQ4a5bC5F-102" target="i98yv0iWhbBMQ4a5bC5F-72">
           <mxGeometry relative="1" as="geometry" />
@@ -241,7 +238,7 @@
           <mxGeometry x="710" y="830" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i98yv0iWhbBMQ4a5bC5F-111" value="&lt;h1&gt;The Bowtie DB&lt;br&gt;&lt;/h1&gt;In theory, the Bowtie DB needs only to be made once for any given project. The config file will define not only the location for the FASTA and GFF file, but also a stable location for the Bowtie database for future use." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="559" y="770" width="284" height="160" as="geometry" />
+          <mxGeometry x="557" y="760" width="284" height="160" as="geometry" />
         </mxCell>
         <mxCell id="i98yv0iWhbBMQ4a5bC5F-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=21;fontColor=#FFFFFF;strokeWidth=2;" edge="1" parent="1" source="i98yv0iWhbBMQ4a5bC5F-113" target="i98yv0iWhbBMQ4a5bC5F-73">
           <mxGeometry relative="1" as="geometry" />
@@ -276,11 +273,35 @@
         <mxCell id="i98yv0iWhbBMQ4a5bC5F-137" value="all_counts.tsv" style="text;strokeColor=#050505;fillColor=#E38010;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="i98yv0iWhbBMQ4a5bC5F-136">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i98yv0iWhbBMQ4a5bC5F-140" value="Bowtie Database" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#1F1F1F;fillColor=#BF6021;fontColor=#F5F5F5;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="142" y="1720" width="277" height="60" as="geometry" />
+        <mxCell id="i98yv0iWhbBMQ4a5bC5F-140" value="All Output File At the end" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#1F1F1F;fillColor=#BF6021;fontColor=#F5F5F5;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="142" y="1720" width="277" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="i98yv0iWhbBMQ4a5bC5F-143" value="read_quality/example_raw/.." style="text;strokeColor=#050505;fillColor=#E38010;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="i98yv0iWhbBMQ4a5bC5F-140">
+          <mxGeometry y="30" width="277" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i98yv0iWhbBMQ4a5bC5F-146" value="example.bam" style="text;strokeColor=#050505;fillColor=#E38010;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="i98yv0iWhbBMQ4a5bC5F-140">
+          <mxGeometry y="60" width="277" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i98yv0iWhbBMQ4a5bC5F-148" value="all_counts.tsv" style="text;strokeColor=#050505;fillColor=#E38010;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="i98yv0iWhbBMQ4a5bC5F-140">
+          <mxGeometry y="90" width="277" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i98yv0iWhbBMQ4a5bC5F-150" value="&lt;Bowtie Directory Path&gt;/&lt;Unique name&gt;" style="text;strokeColor=#050505;fillColor=#E38010;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="i98yv0iWhbBMQ4a5bC5F-140">
+          <mxGeometry y="120" width="277" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i98yv0iWhbBMQ4a5bC5F-144" value="read_quality/example_filtered_trimed/.." style="text;strokeColor=#050505;fillColor=#E38010;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="i98yv0iWhbBMQ4a5bC5F-140">
+          <mxGeometry y="150" width="277" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i98yv0iWhbBMQ4a5bC5F-141" value="&lt;Bowtie Directory Path&gt;/&lt;Unique name&gt;" style="text;strokeColor=#050505;fillColor=#E38010;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="i98yv0iWhbBMQ4a5bC5F-140">
-          <mxGeometry y="30" width="277" height="30" as="geometry" />
+          <mxGeometry y="180" width="277" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i98yv0iWhbBMQ4a5bC5F-151" value="&lt;h1&gt;Quality Info&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Quality is calculated at 2 time points, once for the raw input, and once for the filterd and trimed files. Note that only the zip files are saved.&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="562" y="990" width="283" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="i98yv0iWhbBMQ4a5bC5F-152" value="Retained Output" style="text;strokeColor=#050505;fillColor=#E38010;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="36" y="73" width="114" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i98yv0iWhbBMQ4a5bC5F-153" value="&lt;h1&gt;Final Output&lt;br&gt;&lt;/h1&gt;The final output is also configurable in the config file, almost all outputs can be excluded if desired. If you only want counts you can remove bins for example. If you want something later, you can always generate only those file an be sure of reproducibility, as long as you don&#39;t otherwise alter the config file." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="559" y="1746" width="281" height="174" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
